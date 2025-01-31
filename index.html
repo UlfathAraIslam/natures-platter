@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature's Platter</title>
+    <!-- google fonts (sora & poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6c7d2f9175.js" crossorigin="anonymous"></script>
+    <!-- daisyui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- custom css -->
+     <style>
+        .font-sora{
+            font-family: "Sora", sans-serif;
+        }
+        .font-poppins{
+            font-family: "Poppins", sans
+        }
+     </style>
+    <!-- customise config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "nature-primary": "#179800",
+                "nature-primary-bg":"#EFEBE3"
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-poppins">
+    <!-- header -->
+     <header>
+        <!-- navbar -->
+         <nav>
+
+         </nav>
+         <!-- banner section -->
+          <section></section>
+     </header>
+     <!-- main -->
+      <main>
+        <!-- service -->
+         <section></section>
+         <!-- popular products -->
+          <section></section>
+          <!-- arrival & offers -->
+           <section></section>
+           <section class="absolute p-2 bg-nature-primary-bg text-black w-9/12 left-1/2 top-14 transform -translate-x-1/2 translate-y-1/2  z-10">
+            <h3 class="text-center">Get Grocery</h3>
+          </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer bg-nature-primary text-neutral-content p-24 relative">
+        <!-- Footer content -->
+      </footer>
+  </body>
+</html>
