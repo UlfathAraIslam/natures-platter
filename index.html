@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="light" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,13 +47,60 @@
       };
     </script>
   </head>
-  <body class="font-poppins">
+  <body class="font-poppins  space-y-24">
     <!-- header -->
-     <header>
+     <header class="bg-nature-primary-bg">
         <!-- navbar -->
-         <nav>
+         <div class="">
+            <nav class="navbar items-center md:w-9/12 md:mx-auto flex justify-between md:justify-evenly">
+                  <a class="btn btn-ghost text-xl ">
+                    <img class="hidden md:block" src="./assets/logo-header.png" alt="">
+                    <img class="w-12 block md:hidden"  src="./assets/leaf-logo.png" alt="">
+                  </a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Product</a></li>
+                      <li>
+                        <a>Services</a>
+                      </li>
+                      <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="lg:flex gap-6 
+                 hidden">
+                 <i class="md:block hidden md:mr-5 fas fa-search"></i>
+                 <i class="fas fa-shopping-cart"></i>
+                 <a class="btn btn-outline border-nature-primary hover:bg-nature-primary hover:border-none hover:text-white" href="#">Login</a>
+                  <a class="btn bg-nature-primary text-white hover:border-nature-primary hover:bg-transparent hover:text-black">Register</a>
+                </div>
+            </nav>
+         </div>
 
-         </nav>
          <!-- banner section -->
           <section></section>
      </header>
@@ -65,9 +112,11 @@
           <section></section>
           <!-- arrival & offers -->
            <section></section>
-           <section class="absolute p-2 bg-nature-primary-bg text-black w-9/12 left-1/2 top-14 transform -translate-x-1/2 translate-y-1/2  z-10">
+           <!-- get grocery -->
+
+           <!-- <section class="absolute p-2 bg-nature-primary-bg text-black w-9/12 left-1/2 top-14 transform -translate-x-1/2 translate-y-1/2  z-10">
             <h3 class="text-center">Get Grocery</h3>
-          </section>
+          </section> -->
       </main>
       <!-- footer -->
       <footer class="footer bg-nature-primary text-neutral-content p-24 relative">
