@@ -50,9 +50,9 @@
   </head>
   <body class="font-sora  space-y-24">
     <!-- header -->
-     <header class="bg-nature-primary-bg">
+     <header class="bg-gradient-to-t from-nature-primary-bg to-white">
         <!-- navbar -->
-            <nav class="navbar items-center w-full md:w-9/12 md:mx-auto flex justify-between md:justify-evenly md:mb-32 p-8">
+            <nav class="navbar items-center w-full md:container md:mx-auto flex justify-between md:justify-evenly md:mb-32 p-8">
                   <a class="btn btn-ghost text-xl ">
                     <img class="hidden md:block" src="./assets/logo-header.png" alt="">
                     <img class="w-12 block md:hidden"  src="./assets/leaf-logo.png" alt="">
@@ -61,7 +61,7 @@
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
+                        class="h-5 w-5 text-nature-primary"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -110,8 +110,8 @@
           </section>
      </header>
      <!-- main -->
-      <main class=">
-        <!-- service -->
+      <main>
+       <!-- service secton -->
          <section class="container mx-auto ">
             <h3 class="font-semibold text-2xl text-nature-primary p-4">Services</h3>
             <div class=" grid md:grid-cols-3 grid-cols-1 gap-5 mb-32 p-4">
@@ -124,7 +124,7 @@
                 </figure>
                 <div class="card-body">
                   <h2 class=" font-semibold text-2xl">24/7 Services </h2>
-                  <p class="font-light text-xl">If a dog chews shoes whose shoes does he choose?</p>
+                  <p class="font-light text-xl">Fresh vegetables available anytime, day or night!</p>
                 </div>
               </div>
               <!-- card 2 -->
@@ -135,8 +135,9 @@
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class=" font-semibold text-2xl">24/7 Services </h2>
-                  <p class="font-light text-xl">If a dog chews shoes whose shoes does he choose?</p>
+                  <h2 class=" font-semibold text-2xl">Fast Delivery</h2>
+                  <p class="font-light text-xl">Get your veggies delivered to your doorstep in no time.
+                  </p>
                 </div>
               </div>
               <!-- card 3 -->
@@ -147,24 +148,24 @@
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class=" font-semibold text-2xl">24/7 Services </h2>
-                  <p class="font-light text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                  <h2 class=" font-semibold text-2xl">Healthy Products</h2>
+                  <p class="font-light text-xl">100% fresh, organic, and chemical-free produce.</p>
                 </div>
               </div>
 
             </div>
          </section>
          <!-- popular products -->
-          <section class="bg-nature-primary-bg p-2 md:p-12 mb-32">
+          <section class="bg-nature-primary-bg py-4 px-2 md:p-12 mb-32">
             <div class="container mx-auto">
               <h3 class="font-semibold text-2xl text-nature-primary mb-4">Popular Products</h3>
               <div class="flex flex-col md:flex-row gap-4">
                   <!-- 30% off card -->
-                  <div class="relative bg-nature-primary rounded-lg p-8 space-y-4">
+                  <div class="relative bg-gradient-to-br from-nature-primary to white rounded-lg p-8 space-y-4">
                     <h4 class="text-white font-semibold text-2xl">30% off</h4>
                     <p>Discover a world of treats, toys, and <br> essentials handpicked for </p>
                     <a class="btn font-normal bg-white" href="#">Buy Now</a>
-                    <img class="absolute bottom-0 right-2 w-36" src="./assets/vegetable-offer.png" alt="">
+                    <img class="absolute bottom-0 right-2 md:w-72 w-32" src="./assets/vegetable-offer.png" alt="">
                   </div>
                   <!-- products group -->
                   <div class="md:flex-1 grid grid-cols-2 md:grid-cols-3 grid-rows-4 md:grid-rows-3 gap-4">
@@ -287,11 +288,11 @@
         <!-- get grocery -->
            <section class="md:container w-10/12 md:mx-auto  p-4 md:px-8 lg:px-16 flex md:justify-around absolute justify-center text-center items-center bg-nature-primary-bg md:py-8 text-black left-1/2 transform -translate-x-2/4 -translate-y-2/4 rounded-lg md:gap-32 gap-0 flex-col-reverse lg:flex-row-reverse z-10">
             <div class="text-center lg:text-left">
-              <h1 class="text-4xl font-semibold">Get Grocery News!</h1>
-              <p class="font-normal text-xl text-gray-700 py-6">
+              <h1 class="md:text-4xl text-2xl text-nature-primary font-semibold md:text-black">Get Grocery News!</h1>
+              <p class="font-normal text-base md:text-xl text-gray-700 py-6">
                 Exclusive training tips, ticks, product deals and more.
               </p>
-              <input type="email" class="w-full p-4 rounded-md outline-nature-primary text-nature-primary mb-4" placeholder="enter email" />
+              <input type="email" class="w-full p-4 rounded-md outline-nature-primary text-nature-primary mb-4" placeholder="Enter email...." />
               <button type="submit" class="btn bg-nature-primary font-normal text-xl text-white hover:text-nature-primary outline-none hover:bg-white hover:border-nature-primary">Subscribe</button>
             </div>
             <div class="flex-1 card w-full max-w-sm shrink-0">
