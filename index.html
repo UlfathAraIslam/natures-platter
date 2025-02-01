@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/6c7d2f9175.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- daisyui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
@@ -255,7 +255,7 @@
             </div>
           </section>
           <!-- arrival & offers -->
-           <section class="container mx-auto font-poppins mb-72">
+           <section class="container mx-auto font-poppins mb-96">
             <h3 class="font-semibold text-2xl text-nature-primary pl-3 mb-4">Arrival & Offers</h3>
             <div class="flex flex-col md:flex-row gap-4 p-4 md:p-0">
               <!-- daawat -->
@@ -288,7 +288,8 @@
       <!-- footer -->
       <footer class="bg-nature-primary text-neutral-content relative p-10">
         <!-- get grocery -->
-          <div class="container flex justify-around absolute bg-nature-primary-bg py-8 text-black left-1/2 transform -translate-x-1/2 -top-1/3 -translate-y-1/3 z-10 rounded-lg md:gap-32 gap-0 flex-col lg:flex-row-reverse ">
+          <div class="mx-auto px-4 md:px-8 lg:px-16">
+            <div class="md:container flex md:justify-around absolute justify-center items-center bg-nature-primary-bg md:py-8 text-black left-1/2 px-4 transform -translate-x-2/4 -translate-y-2/4 rounded-lg md:gap-32 gap-0 flex-col-reverse lg:flex-row-reverse w-full z-10">
               <div class="text-center lg:text-left">
                 <h1 class="text-4xl font-semibold">Get Grocery News!</h1>
                 <p class="font-normal text-xl text-gray-700 py-6">
@@ -301,7 +302,31 @@
                 <img src="./assets/vegetable-busket.png" alt="">
               </div>
           </div>
+          </div>
         <!-- Footer content -->
+         <div class="container mx-auto grid grid-cols-1 space-y-4 md:grid-cols-3 md:place-items-center pt-72 ">
+          <!-- logo -->
+          <div class="space-y-4">
+            <img src="./assets/logo-footer.png" alt="">
+            <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          </div>
+          <!-- links -->
+          <div class="flex flex-col space-y-5">
+            <a href="">Product</a>
+            <a href="">Services</a>
+            <a href="">Contact us</a>
+          </div>
+          <!-- social links -->
+          <div class="space-y-4">
+            <p>Follow us</p>
+            <div class="space-x-4">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+         </div>
       </footer>
   </body>
 </html>
